@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact GreenHarvest for fresh vegetable delivery, inquiries, or feedback">
+    <title>Contact Us - GreenHarvest</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>GreenHarvest</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="address.html">Address & Map</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Banner -->
+        <section class="page-banner">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>Have questions about our services or want to place an order? Reach out to us using any of the following methods:</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Phone</h3>
+                                    <p>+1 (555) 123-4567</p>
+                                    <p class="text-muted">Monday to Saturday, 9am to 6pm</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Email</h3>
+                                    <p>info@greenharvest.com</p>
+                                    <p class="text-muted">We'll respond within 24 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Address</h3>
+                                    <p>123 Vegetable Lane, Fresh City</p>
+                                    <p class="text-muted">Visit our facility (by appointment)</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Business Hours</h3>
+                                    <p>Monday to Friday: 9am - 6pm</p>
+                                    <p>Saturday: 9am - 3pm</p>
+                                    <p>Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-contact">
+                            <h3>Connect With Us</h3>
+                            <div class="social-icons">
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                <div class="error-message" id="name-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <div class="error-message" id="email-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number (Optional)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>Select a subject</option>
+                                    <option value="order">Place an Order</option>
+                                    <option value="inquiry">General Inquiry</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="error-message" id="subject-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+                                <div class="error-message" id="message-error"></div>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                <label for="consent">I agree to the processing of my personal data in accordance with the privacy policy</label>
+                                <div class="error-message" id="consent-error"></div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <div id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What areas do you deliver to?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We currently deliver to all areas within a 30-mile radius of our facility. This includes Fresh City and surrounding suburbs. For locations outside this range, please contact us for special arrangements.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I place an order?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>You can place an order by filling out the contact form on this page, calling our customer service number, or sending us an email. We'll confirm your order within 24 hours.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What payment methods do you accept?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We accept credit/debit cards, bank transfers, and cash on delivery. For regular customers, we also offer monthly subscription plans with automatic payments.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How fresh are your vegetables?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our vegetables are harvested on the same day or one day before delivery, ensuring maximum freshness. We work directly with local farmers to minimize the time between harvest and delivery.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you offer organic vegetables?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer a range of certified organic vegetables. These are clearly labeled in our product listings and come with a slight premium due to the specialized farming practices required.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Order Fresh Vegetables?</h2>
+                <p>Contact us today to place your order or learn more about our services.</p>
+                <div class="cta-buttons">
+                    <a href="services.html" class="btn btn-primary">View Services</a>
+                    <a href="address.html" class="btn btn-secondary">Find Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>GreenHarvest</h2>
+                    <p>Fresh vegetables delivered to your doorstep</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="address.html">Address & Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@greenharvest.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Vegetable Lane, Fresh City</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GreenHarvest. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
