@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+  <style>
+    .bowl { fill: #EEEEEE; }
+    .bowl-shadow { fill: #BDBDBD; }
+    .carrot { fill: #FF7043; }
+    .carrot-inside { fill: #FFCCBC; }
+    .cucumber { fill: #66BB6A; }
+    .cucumber-inside { fill: #C8E6C9; }
+    .tomato { fill: #F44336; }
+    .tomato-inside { fill: #FFCDD2; }
+    .onion { fill: #E1BEE7; }
+    .onion-inside { fill: #F3E5F5; }
+    .knife { fill: #BDBDBD; }
+    .knife-handle { fill: #5D4037; }
+  </style>
+  <g>
+    <!-- Bowl -->
+    <path class="bowl" d="M128 256c0-64 64-96 128-96s128 32 128 96c0 64-64 96-128 96s-128-32-128-96z"/>
+    <path class="bowl-shadow" d="M128 256c0 8 64 32 128 32s128-24 128-32"/>
+    
+    <!-- Cut vegetables in bowl -->
+    <!-- Carrot slices -->
+    <circle class="carrot" cx="176" cy="224" r="16"/>
+    <circle class="carrot-inside" cx="176" cy="224" r="8"/>
+    
+    <circle class="carrot" cx="208" cy="256" r="16"/>
+    <circle class="carrot-inside" cx="208" cy="256" r="8"/>
+    
+    <!-- Cucumber slices -->
+    <circle class="cucumber" cx="240" cy="224" r="16"/>
+    <circle class="cucumber-inside" cx="240" cy="224" r="8"/>
+    
+    <circle class="cucumber" cx="272" cy="256" r="16"/>
+    <circle class="cucumber-inside" cx="272" cy="256" r="8"/>
+    
+    <!-- Tomato slices -->
+    <circle class="tomato" cx="304" cy="224" r="16"/>
+    <circle class="tomato-inside" cx="304" cy="224" r="8"/>
+    
+    <!-- Onion slices -->
+    <circle class="onion" cx="336" cy="256" r="16"/>
+    <circle class="onion-inside" cx="336" cy="256" r="8"/>
+    
+    <!-- Knife -->
+    <path class="knife" d="M384 128l-32 32-32 32 16 16 32-32 32-32-16-16z"/>
+    <path class="knife-handle" d="M400 112l-16 16 16 16 16-16-16-16z"/>
+  </g>
+</svg>

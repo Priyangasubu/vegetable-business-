@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+  <style>
+    .badge { fill: #4CAF50; }
+    .badge-inner { fill: #81C784; }
+    .star { fill: #FFEB3B; }
+    .checkmark { fill: #FFFFFF; stroke: #388E3C; stroke-width: 8; }
+  </style>
+  <g>
+    <!-- Badge -->
+    <circle class="badge" cx="256" cy="256" r="160"/>
+    <circle class="badge-inner" cx="256" cy="256" r="120"/>
+    
+    <!-- Star points -->
+    <path class="star" d="M256 96l16 48h48l-40 32 16 48-40-32-40 32 16-48-40-32h48z"/>
+    <path class="star" d="M128 208l16 32h32l-24 24 8 32-32-16-32 16 8-32-24-24h32z"/>
+    <path class="star" d="M384 208l16 32h32l-24 24 8 32-32-16-32 16 8-32-24-24h32z"/>
+    
+    <!-- Checkmark -->
+    <path class="checkmark" d="M208 280l32 32 64-64" fill="none"/>
+  </g>
+</svg>

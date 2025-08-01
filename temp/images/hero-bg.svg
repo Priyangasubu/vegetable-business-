@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <style>
+    .bg { fill: #F1F8E9; }
+    .leaf-pattern { fill: #C8E6C9; opacity: 0.4; }
+    .accent-1 { fill: #81C784; opacity: 0.3; }
+    .accent-2 { fill: #4CAF50; opacity: 0.2; }
+    .accent-3 { fill: #2E7D32; opacity: 0.1; }
+  </style>
+  <g>
+    <!-- Background -->
+    <rect class="bg" x="0" y="0" width="1920" height="1080"/>
+    
+    <!-- Leaf patterns -->
+    <g class="leaf-pattern">
+      <!-- Repeating leaf pattern in background -->
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(100, 100) scale(0.5)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(300, 200) scale(0.7)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(500, 150) scale(0.6)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(700, 300) scale(0.8)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(900, 100) scale(0.5)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1100, 250) scale(0.7)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1300, 150) scale(0.6)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1500, 200) scale(0.5)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1700, 100) scale(0.7)"/>
+      
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(200, 400) scale(0.6)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(400, 500) scale(0.5)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(600, 450) scale(0.7)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(800, 550) scale(0.6)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1000, 400) scale(0.8)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1200, 500) scale(0.5)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1400, 450) scale(0.7)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1600, 550) scale(0.6)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1800, 400) scale(0.5)"/>
+      
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(100, 700) scale(0.7)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(300, 800) scale(0.6)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(500, 750) scale(0.5)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(700, 850) scale(0.7)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(900, 700) scale(0.6)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1100, 800) scale(0.8)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1300, 750) scale(0.5)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1500, 850) scale(0.7)"/>
+      <path d="M0 0c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z" transform="translate(1700, 700) scale(0.6)"/>
+    </g>
+    
+    <!-- Accent shapes -->
+    <circle class="accent-1" cx="200" cy="200" r="150"/>
+    <circle class="accent-2" cx="1700" cy="300" r="200"/>
+    <circle class="accent-3" cx="500" cy="900" r="180"/>
+    <circle class="accent-1" cx="1500" cy="800" r="160"/>
+    
+    <!-- Diagonal accent -->
+    <path class="accent-2" d="M-100,1200 L2000,-100" stroke-width="300" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+  <style>
+    .farm { fill: #8D6E63; }
+    .roof { fill: #5D4037; }
+    .field { fill: #4CAF50; }
+    .plant { fill: #388E3C; }
+    .table { fill: #A1887F; }
+    .plate { fill: #EEEEEE; }
+    .vegetable { fill: #81C784; }
+    .arrow { fill: #FF9800; }
+  </style>
+  <g>
+    <!-- Farm house -->
+    <path class="farm" d="M96 256h96v64H96z"/>
+    <path class="roof" d="M80 256l64-48 64 48z"/>
+    
+    <!-- Field -->
+    <path class="field" d="M96 320h96v32H96z"/>
+    <path class="plant" d="M112 320c0-8 4-16 8-16s8 8 8 16"/>
+    <path class="plant" d="M136 320c0-12 4-20 8-20s8 8 8 20"/>
+    <path class="plant" d="M160 320c0-8 4-16 8-16s8 8 8 16"/>
+    
+    <!-- Arrow -->
+    <path class="arrow" d="M208 288l32-32 32 32h-16v32h-32v-32z"/>
+    
+    <!-- Table -->
+    <path class="table" d="M320 288h96v8h-96z"/>
+    <path class="table" d="M328 296h8v32h-8z"/>
+    <path class="table" d="M400 296h8v32h-8z"/>
+    
+    <!-- Plate with vegetables -->
+    <circle class="plate" cx="368" cy="280" r="24"/>
+    <circle class="vegetable" cx="360" cy="276" r="6"/>
+    <circle class="vegetable" cx="376" cy="276" r="6"/>
+    <circle class="vegetable" cx="368" cy="284" r="6"/>
+  </g>
+</svg>

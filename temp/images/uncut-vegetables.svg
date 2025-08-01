@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+  <style>
+    .basket { fill: #8D6E63; }
+    .basket-highlight { fill: #A1887F; }
+    .carrot { fill: #FF7043; }
+    .carrot-top { fill: #4CAF50; }
+    .tomato { fill: #F44336; }
+    .tomato-highlight { fill: #FFCDD2; }
+    .tomato-stem { fill: #4CAF50; }
+    .cucumber { fill: #66BB6A; }
+    .cucumber-highlight { fill: #C8E6C9; }
+    .onion { fill: #E1BEE7; }
+    .onion-skin { fill: #CE93D8; }
+  </style>
+  <g>
+    <!-- Basket -->
+    <path class="basket" d="M96 256c0-16 16-32 32-32h256c16 0 32 16 32 32v96c0 16-16 32-32 32H128c-16 0-32-16-32-32v-96z"/>
+    <path class="basket-highlight" d="M112 272h288v64H112z"/>
+    
+    <!-- Carrot -->
+    <path class="carrot" d="M160 224v-64c0-16 8-32 16-32s16 16 16 32v64"/>
+    <path class="carrot-top" d="M176 128c-16-16-16-32 0-48"/>
+    <path class="carrot-top" d="M176 128c0-16 16-32 32-32"/>
+    <path class="carrot-top" d="M176 128c16-16 32-16 48 0"/>
+    
+    <!-- Tomato -->
+    <circle class="tomato" cx="256" cy="192" r="32"/>
+    <path class="tomato-highlight" cx="248" cy="184" r="8"/>
+    <path class="tomato-stem" d="M256 160c0-16 0-32 16-32"/>
+    
+    <!-- Cucumber -->
+    <path class="cucumber" d="M320 224v-96c0-8 8-16 16-16s16 8 16 16v96"/>
+    <path class="cucumber-highlight" d="M328 144l16 64"/>
+    
+    <!-- Onion -->
+    <circle class="onion" cx="384" cy="208" r="32"/>
+    <path class="onion-skin" d="M384 176c-16 0-24 8-24 16s8 16 24 16 24-8 24-16-8-16-24-16z"/>
+    <path class="onion-skin" d="M384 240c16 0 24-8 24-16s-8-16-24-16-24 8-24 16 8 16 24 16z"/>
+  </g>
+</svg>

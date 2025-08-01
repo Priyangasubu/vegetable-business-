@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+  <style>
+    .coin { fill: #FFD54F; }
+    .coin-edge { fill: #FFC107; }
+    .coin-detail { fill: #FF9800; }
+    .price-tag { fill: #4CAF50; }
+    .price-tag-hole { fill: #388E3C; }
+    .price-text { fill: #FFFFFF; font-family: Arial, sans-serif; font-weight: bold; }
+  </style>
+  <g>
+    <!-- Coins -->
+    <circle class="coin" cx="176" cy="256" r="80"/>
+    <circle class="coin-edge" cx="176" cy="256" r="72"/>
+    <circle class="coin" cx="176" cy="256" r="64"/>
+    <path class="coin-detail" d="M176 208v96"/>
+    <path class="coin-detail" d="M160 224h32"/>
+    <path class="coin-detail" d="M160 288h32"/>
+    
+    <circle class="coin" cx="224" cy="304" r="80"/>
+    <circle class="coin-edge" cx="224" cy="304" r="72"/>
+    <circle class="coin" cx="224" cy="304" r="64"/>
+    <path class="coin-detail" d="M224 256v96"/>
+    <path class="coin-detail" d="M208 272h32"/>
+    <path class="coin-detail" d="M208 336h32"/>
+    
+    <!-- Price tag -->
+    <path class="price-tag" d="M336 128l64 64v128l-64 64h-96l-32-32 128-224z"/>
+    <circle class="price-tag-hole" cx="368" cy="176" r="16"/>
+    
+    <!-- Price text -->
+    <text class="price-text" x="304" y="256" font-size="48">$</text>
+  </g>
+</svg>

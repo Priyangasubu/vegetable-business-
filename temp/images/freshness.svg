@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+  <style>
+    .leaf { fill: #4CAF50; }
+    .leaf-vein { fill: none; stroke: #388E3C; stroke-width: 4; }
+    .water-drop { fill: #2196F3; }
+    .highlight { fill: #81C784; }
+    .dew { fill: #BBDEFB; }
+  </style>
+  <g>
+    <!-- Main leaf -->
+    <path class="leaf" d="M256 96c-96 0-160 64-160 160 0 96 64 160 160 160 96 0 160-64 160-160 0-96-64-160-160-160z"/>
+    
+    <!-- Leaf veins -->
+    <path class="leaf-vein" d="M256 96v320"/>
+    <path class="leaf-vein" d="M176 136l160 160"/>
+    <path class="leaf-vein" d="M176 376l160-160"/>
+    <path class="leaf-vein" d="M136 256h240"/>
+    
+    <!-- Highlight -->
+    <path class="highlight" d="M216 136c-40 40-40 80 0 120 40 40 80 40 120 0 40-40 40-80 0-120-40-40-80-40-120 0z"/>
+    
+    <!-- Water drops -->
+    <circle class="water-drop" cx="200" cy="200" r="16"/>
+    <circle class="water-drop" cx="312" cy="200" r="16"/>
+    <circle class="water-drop" cx="256" cy="312" r="16"/>
+    
+    <!-- Dew highlights -->
+    <circle class="dew" cx="196" cy="196" r="4"/>
+    <circle class="dew" cx="308" cy="196" r="4"/>
+    <circle class="dew" cx="252" cy="308" r="4"/>
+  </g>
+</svg>

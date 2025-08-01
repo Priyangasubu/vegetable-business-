@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="200" height="80">
+  <style>
+    .text-green { fill: #2E7D32; font-family: 'Arial', sans-serif; font-weight: bold; }
+    .text-light { fill: #4CAF50; font-family: 'Arial', sans-serif; font-weight: bold; }
+    .leaf { fill: #4CAF50; }
+    .leaf-dark { fill: #2E7D32; }
+    .leaf-light { fill: #81C784; }
+    .stem { fill: #388E3C; }
+  </style>
+  <g>
+    <!-- Logo Text -->
+    <text class="text-green" x="160" y="280" font-size="48">Green</text>
+    <text class="text-light" x="160" y="330" font-size="48">Harvest</text>
+    
+    <!-- Leaf Icon -->
+    <g transform="translate(80, 256) scale(0.8)">
+      <!-- Main leaf shape -->
+      <path class="leaf" d="M0 0c-60 60-60 120 0 180 60 60 120 60 180 0 60-60 60-120 0-180-60-60-120-60-180 0z"/>
+      
+      <!-- Leaf highlight -->
+      <path class="leaf-light" d="M30 30c-30 30-30 60 0 90 30 30 60 30 90 0 30-30 30-60 0-90-30-30-60-30-90 0z"/>
+      
+      <!-- Leaf veins -->
+      <path class="leaf-dark" d="M0 0l180 180" stroke-width="4" fill="none"/>
+      <path class="leaf-dark" d="M90 0v180" stroke-width="4" fill="none"/>
+      <path class="leaf-dark" d="M0 90h180" stroke-width="4" fill="none"/>
+      <path class="leaf-dark" d="M180 0l-180 180" stroke-width="4" fill="none"/>
+      
+      <!-- Stem -->
+      <path class="stem" d="M90 180v60" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

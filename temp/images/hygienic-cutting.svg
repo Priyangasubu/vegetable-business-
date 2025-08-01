@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+  <style>
+    .knife { fill: #BDBDBD; }
+    .knife-handle { fill: #5D4037; }
+    .vegetable { fill: #4CAF50; }
+    .cutting-board { fill: #8D6E63; }
+    .highlight { fill: #81C784; }
+  </style>
+  <g>
+    <path class="cutting-board" d="M80 352h352c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16z"/>
+    <path class="vegetable" d="M144 272c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48z"/>
+    <path class="highlight" d="M144 288c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"/>
+    <path class="vegetable" d="M224 272c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48z"/>
+    <path class="highlight" d="M224 288c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"/>
+    <path class="knife" d="M416 96l-32 32-160 160 22.6 22.6c6.2 6.2 6.2 16.4 0 22.6-6.2 6.2-16.4 6.2-22.6 0L192 302.6 128 368h32l48-48 22.6 22.6c18.7 18.7 49.1 18.7 67.9 0 18.7-18.7 18.7-49.1 0-67.9L276 252l140-140 32-32-32-32-32 32z"/>
+    <path class="knife-handle" d="M448 64l-32 32 32 32 32-32-32-32z"/>
+  </g>
+</svg>

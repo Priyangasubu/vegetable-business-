@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <style>
+    .leaf { fill: #4CAF50; }
+    .leaf-light { fill: #81C784; }
+    .leaf-dark { fill: #2E7D32; }
+    .stem { fill: #388E3C; }
+  </style>
+  <g>
+    <!-- Main leaf shape -->
+    <path class="leaf" d="M4 4c-4 4-4 8 0 12 4 4 8 4 12 0 4-4 4-8 0-12-4-4-8-4-12 0z"/>
+    
+    <!-- Leaf highlight -->
+    <path class="leaf-light" d="M6 6c-2 2-2 4 0 6 2 2 4 2 6 0 2-2 2-4 0-6-2-2-4-2-6 0z"/>
+    
+    <!-- Leaf veins -->
+    <path class="leaf-dark" d="M4 4l12 12" stroke-width="1" fill="none"/>
+    <path class="leaf-dark" d="M10 4v12" stroke-width="1" fill="none"/>
+    <path class="leaf-dark" d="M4 10h12" stroke-width="1" fill="none"/>
+    <path class="leaf-dark" d="M16 4l-12 12" stroke-width="1" fill="none"/>
+    
+    <!-- Stem -->
+    <path class="stem" d="M10 16v4" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
